@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>FunChat Message App</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <section class="welcome-page" id="welcome-page">
+        <h1>FunChat<i class="fa-regular fa-message"></i> </h1>
+        <p>Chat, Call, Hangout and More With Friends Around The Globe</p>
+        <div class="welcome-anime" id="welcome-anime">
+            <iframe src="https://lottie.host/embed/f1a117dd-b43d-4732-af3c-659c72ba38a5/DG9FPAfinY.lottie"></iframe>
+        </div>
+        <div class="welcome-page-cta-buttons">
+            <button class="create-new-account-button">Create New Account</button>
+            <p>or</p>
+            <button class="login-button">Login Existing Account</button>
+        </div>
+    </section>
+    <section class="user-auth-page" id="user-auth-page">
+        <h2>Create New Account</h2>
+        <form id="user-registration-form">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" required placeholder="e.g..johnson003">
+            <label for="password">Create Password</label>
+            <input type="password" name="password" id="password" required placeholder="Create Password">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" name="confirm-password" id="confirm-password" required>
+            <label for="phone-number">Phone Number</label>
+            <input type="tel" name="phone-number" id="phone-number" required placeholder="e.g..+234-9087659800">
+            <label for="country">Country</label>
+            <input type="text" name="country" id="country" required placeholder="e.g..Canada">
+            <button type="submit" class="create-acct-btn" id="create-acct-btn">Create Account</button>
+        </form>
+        <form id="user-login-form">
+            <h2>Login</h2>
+            <label for="username-auth">Username</label>
+            <input type="text" name="username-auth" id="username-auth" required placeholder="johnson003">
+            <label for="password-auth">Password</label>
+            <input type="password" name="password-auth" id="password-auth" required placeholder="johnson003">
+            <button type="submit" class="login-btn">Login</button>
+            <div class="login-help">
+                <label for="remember-me">Remember Me</label>
+                <input type="checkbox" name="remember-me" id="remember-me">
+                <p><a href="#forgotten-password">Forgotten Password</a></p>
+            </div>
+        </form>
+    </section>
+    <section class="main-chat-dashboard" id="main-chat-dashboard">
+        <div class="chat-sidebar"></div>
+        <div class="chat-conversation-area"></div>
+    </section>
+</body>
+
+</html>
