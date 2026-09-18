@@ -79,6 +79,8 @@ Development Roadmap
 FunChat will be developed progressively rather than attempting to build the entire application at once.
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9294bbdc-d0e8-41aa-9f18-5094c02f1b15" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/0dfe255c-27b2-44a6-97ac-02abd2b1ea86" />
+
 
 
 
